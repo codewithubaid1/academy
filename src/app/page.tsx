@@ -176,7 +176,7 @@ export default function Home() {
               <div className="relative w-full aspect-[3/4] max-w-md bg-gradient-to-b from-green-50 to-green-100 rounded-2xl p-6 shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-green-200/30 to-green-100/30 rounded-2xl backdrop-blur-sm"></div>
                 <Image
-                  src="/updated.png"
+                  src="/updated.jpg"
                   alt="Muhammad Sajid"
                   fill
                   style={{ objectFit: 'contain' }}
