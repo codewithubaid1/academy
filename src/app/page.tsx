@@ -169,6 +169,12 @@ export default function Home() {
               <div className="text-blue-800 text-2xl font-italic mb-6">
                 Start Time 1:00 pm
               </div>
+              <button 
+                onClick={() => setShowEnrollForm(!showEnrollForm)} 
+                className="btn-primary ml-4 text-xl"
+              >
+                Enroll Now
+              </button>
             </div>
 
             {/* Instructor Image Section */}
