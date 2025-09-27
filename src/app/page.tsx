@@ -53,16 +53,16 @@ export default function Home() {
       setLoading(false)
       if (response.ok) {
         const data = await response.json();
-        console.log("✅ Success:", data);
+       
 
         setShowEnrollForm(false)
         alert("Details submitted successfully!");
       } else {
-        console.error("❌ Failed:", response.statusText);
+     
         alert("Something went wrong!");
       }
     } catch (error) {
-      console.error("⚠️ Error:", error);
+      
       alert('Something went wrong')
        setLoading(false)
     }
@@ -191,7 +191,7 @@ export default function Home() {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-green-100 to-transparent h-20 rounded-b-2xl"></div>
               </div>
-              <div className="text-center mt-6 bg-green-50/80 px-8 py-4 rounded-xl shadow-md">
+              <div className="text-center mt-6 bg-green-50/80 px-8 py-4 rounded-xl shadow-md hover:shadow-lg duration-300">
                 <h2 className="text-3xl font-bold text-red-500 mb-2">MUHAMMAD SAJID</h2>
                 <p className="text-xl text-green-800">(M.Phil Math)</p>
               </div>
